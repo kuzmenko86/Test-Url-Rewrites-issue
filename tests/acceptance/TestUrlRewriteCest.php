@@ -12,8 +12,8 @@ class TestUrlRewriteCest
      */
     public function tryToTest(WebGuy $I)
     {
-        $search = "http://www.claudiastrater.com";
-        $fileLocation = "../projectstests/url-rewrite/tests/acceptance/301Redirects.csv";
+        $search = ""; //website url http://magento.com
+        $fileLocation = ""; //file location ../projectstests/url-rewrite/tests/acceptance/301Redirects.csv
 
         $I->wantTo("Check if url rewrites were imported correct");
 

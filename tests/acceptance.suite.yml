@@ -13,7 +13,7 @@ modules:
    enabled: [WebDriver]
    config:
       WebDriver:
-         url: 'http://claudiastrater-ee.alpha2.corp.ism-ukraine.com/'
+         url: ''
          browser: firefox
          wait: 0.5
          capabilities:
