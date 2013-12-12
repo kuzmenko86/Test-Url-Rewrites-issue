@@ -25,6 +25,7 @@ class TestUrlRewriteCest
                 $requestPath = str_replace($search, "", $data[0]);
                 $targetPath = str_replace($search, "", $data[1]);
 
+
                 if (strlen($targetPath) > 1){
                     $targetPath = rtrim($targetPath, "/");
                 }
